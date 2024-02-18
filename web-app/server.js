@@ -27,7 +27,7 @@ app.get("/health_check", async (req, res) => {
 });
 
 const port = 3001;
-
+// server
 initServer().then((operationsSuccessful) => {
     if (operationsSuccessful) {
         app.listen(port, () => {
